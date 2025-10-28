@@ -9,7 +9,7 @@ import java.util.List;
 
 import static java.lang.Double.NaN;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://mihkel-webshop-09-25.web.app"})
 @RestController
 public class ProductController {
 
